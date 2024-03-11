@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/sideNavGroupMain">
+        <item
+            android:id="@+id/sideNavHome"
+            android:icon="@drawable/baseline_home_icon"
+            android:title="@string/side_nave_home_title"
+            android:checked="true"/>
+        <item
+            android:id="@+id/sideNavProfile"
+            android:icon="@drawable/baseline_person_icon"
+            android:title="@string/side_nave_profile_title"
+            android:visible="false" />
+        <item
+            android:id="@+id/sideNavCategory"
+            android:icon="@drawable/baseline_view_list_icon"
+            android:title="@string/side_nav_categoty_title"
+            android:visible="false" />
+        <item
+            android:id="@+id/sideNavCart"
+            android:icon="@drawable/baseline_shopping_cart_icon"
+            android:title="@string/side_nave_cart_title"
+            android:visible="false" />
+        <item
+            android:id="@+id/sideNavMessage"
+            android:icon="@drawable/baseline_message_icon"
+            android:title="@string/side_nave_message_title"
+            android:visible="false" />
+        <item
+            android:id="@+id/sideNavSetting"
+            android:icon="@drawable/baseline_settings_icon"
+            android:title="@string/side_nave_setting_title"
+            android:visible="false" />
+    </group>
+
+    <group android:id="@+id/sideNavGroupAuth">
+        <item
+            android:id="@+id/sideNavLogin"
+            android:icon="@drawable/baseline_login_icon"
+            android:title="@string/side_nave_login_title" />
+        <item
+            android:id="@+id/sideNavLogOut"
+            android:icon="@drawable/baseline_logout_icon"
+            android:title="@string/side_nave_logout_title"
+            android:visible="false" />
+    </group>
+
+
+</menu>
